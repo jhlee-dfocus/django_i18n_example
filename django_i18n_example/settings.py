@@ -26,7 +26,12 @@ SECRET_KEY = '3pykyaqk#*wgwp%$3l@9_az$_9m^-3z3xkbcm!fitj9w!1c802'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '8000-firebase-djangoi18n_example-1754463178471.cluster-44kx2eiocbhe2tyk3zoyo3ryuo.cloudworkstations.dev',
+    '127.0.0.1',
+]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-firebase-djangoi18n_example-1754463178471.cluster-44kx2eiocbhe2tyk3zoyo3ryuo.cloudworkstations.dev', 'https://8000-firebase-djangoi18nexample-1754463178471.cluster-44kx2eiocbhe2tyk3zoyo3ryuo.cloudworkstations.dev']
 
 
 # Application definition
